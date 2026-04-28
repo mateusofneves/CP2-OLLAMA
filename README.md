@@ -1,50 +1,43 @@
-# 🤖 Projeto IA: Ollama no Google Colab
+# 🤖 BankAssist: Assistente Virtual Bancário com Ollama
 
-Este repositório contém o trabalho prático desenvolvido para a disciplina de **[Nome da Disciplina]**. O objetivo é demonstrar a implementação, configuração e utilização de modelos de linguagem (LLMs) através do framework **Ollama** utilizando o hardware acelerado do **Google Colab**.
+**Domínio Escolhido:** Setor Financeiro / Atendimento ao Cliente.  
+Este projeto consiste na criação de um assistente especializado para um banco digital, focado em resolver dúvidas sobre conta corrente, rendimentos e segurança de forma ágil, moderna e segura.
 
 ---
 
 ## 👥 Integrantes do Grupo
 
-| Nome Completo | RA / Matrícula | GitHub / Social |
+| Nome Completo | RM | GitHub |
 | :--- | :--- | :--- |
-| **Mateus de Oliveira Fernandes Neves** | 572431 | [GitHub](https://github.com/mateusofneves) |
-| **Paulo Henrique Lira Bilac de Araujo** | 569496 | [GitHub](https://github.com/Patohabitant) |
-| **Olavo Dadario Vianna Barreto** | 569272 | [GitHub](https://github.com/Dadario343) |
-| **Pedro Soares de Souza** | 571285 | [GitHub](https://github.com/pedrosoaresdesouza03-rgb) |
-| **Jhon Cutile Titirico** | 571976 | [GitHub](https://github.com/jhoncutiletitirico) |
+| **Mateus de Oliveira Fernandes Neves** | 572431 | [mateusofneves](https://github.com/mateusofneves) |
+| **Paulo Henrique Lira Bilac de Araujo** | 569496 | [Patohabitant](https://github.com/Patohabitant) |
+| **Olavo Dadario Vianna Barreto** | 569272 | [Dadario343](https://github.com/Dadario343) |
+| **Pedro Soares de Souza** | 571285 | [pedrosoaresdesouza03-rgb](https://github.com/pedrosoaresdesouza03-rgb) |
+| **Jhon Cutile Titirico** | 571976 | [jhoncutiletitirico](https://github.com/jhoncutiletitirico) |
 
 ---
 
-## 📋 Sobre o Projeto
-
-A atividade foca na orquestração de Large Language Models (LLMs) em ambientes de nuvem temporários. O Ollama permite rodar modelos como Llama 3, Mistral e Phi-3 de forma eficiente.
-
-### Tecnologias Utilizadas:
-* **Linguagem:** Python 3
-* **Ambiente:** Google Colab (Runtime com GPU T4)
-* **Ferramentas:** Ollama, Pyngrok (para tunelamento de API), bibliotecas de interação (Requests/LangChain).
+## 💡 Justificativa
+Escolhemos o domínio bancário devido à necessidade de uma comunicação que equilibre **proximidade** e **segurança**. No cenário atual, os bancos digitais precisam de IAs que traduzam termos técnicos ("bancuês") para uma linguagem acessível, garantindo que o cliente entenda seus benefícios (como rendimentos) e protocolos de segurança sem fricção.
 
 ---
 
-## 🚀 Como Rodar o Projeto
-
-Para replicar este experimento no Google Colab, siga os passos abaixo:
-
-1. **Configurar GPU:** Vá em `Ambiente de Execução` > `Alterar tipo de ambiente de execução` > Selecione `T4 GPU`.
-2. **Instalar o Ollama:**
-   ```bash
-   !curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
+## 📊 Dataset
+O dataset foi construído utilizando a técnica de *Few-shot Prompting*, inserida diretamente no `Modelfile`.
+* **Quantidade:** 10 pares de Pergunta/Resposta.
+* **Construção:** Mapeamos as dúvidas mais frequentes em FAQs de bancos digitais reais, focando em:
+    1. Visualização de extrato e saldo.
+    2. Procedimentos de emergência (perda de cartão).
+    3. Explicação de rendimentos (CDI vs Poupança).
+    4. Suporte para novos produtos financeiros.
 
 ---
 
-## 📕 Aprendizados
-**Mateus de Oliveira Fernandes Neves**
+## 🧠 System Prompt & Decisões
+O comportamento da IA foi moldado através do seguinte System Prompt:
 
-**Paulo Henrique Lira Bilac de Araujo**
-
-**Olavo Dadario Vianna Barreto**
-
-**Pedro Soares de Souza**
-
-**Jhon Cutile Titirico**
+```text
+SYSTEM "Você é o NuAssist, um assistente de banco digital. Seja transparente e direto. 
+Regras: 1. Nunca peça senhas ou dados sensíveis. 2. Use português brasileiro simples. 
+3. Se não souber algo, direcione para o chat humano."
+PARAMETER temperature 0.3
