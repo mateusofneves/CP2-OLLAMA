@@ -8,11 +8,11 @@ Este repositório contém o trabalho prático desenvolvido para a disciplina de 
 
 | Nome Completo | RA / Matrícula | GitHub / Social |
 | :--- | :--- | :--- |
-| **Mateus de Oliveira Fernandes Neves** | 572431 | [GitHub](https://github.com/) |
-| **Paulo Henrique Lira Bilac de Araujo** | 569496 | [GitHub](https://github.com/) |
-| **Olavo Dadario Vianna Barreto** | 569272 | [GitHub](https://github.com/) |
-| **Pedro Soares de Souza** | 571285 | [GitHub](https://github.com/) |
-| **Jhon Cutile Titirico** | 571976 | [GitHub](https://github.com/) |
+| **Mateus de Oliveira Fernandes Neves** | 572431 | [GitHub]([https://github.com/](https://github.com/mateusofneves)) |
+| **Paulo Henrique Lira Bilac de Araujo** | 569496 | [GitHub]([https://github.com/](https://github.com/Patohabitant)) |
+| **Olavo Dadario Vianna Barreto** | 569272 | [GitHub]([https://github.com/](https://github.com/Dadario343)) |
+| **Pedro Soares de Souza** | 571285 | [GitHub]([https://github.com/](https://github.com/pedrosoaresdesouza03-rgb)) |
+| **Jhon Cutile Titirico** | 571976 | [GitHub]([https://github.com/](https://github.com/jhoncutiletitirico)) |
 
 ---
 
