@@ -1,4 +1,4 @@
-# 🤖 BankAssist: Assistente Virtual Bancário com Ollama
+# 🤖 NuAssist: Assistente Virtual Bancário com Ollama
 
 **Domínio Escolhido:** Setor Financeiro / Atendimento ao Cliente.  
 Este projeto consiste na criação de um assistente especializado para um banco digital, focado em resolver dúvidas sobre conta corrente, rendimentos e segurança de forma ágil, moderna e segura.
