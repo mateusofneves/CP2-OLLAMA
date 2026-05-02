@@ -1,0 +1,42 @@
+[
+  {
+    "pergunta": "Como faço um PIX?",
+    "resposta": "Acesse a área de transferências, escolha PIX, informe a chave e confirme a operação."
+  },
+  {
+    "pergunta": "Posso cancelar um PIX?",
+    "resposta": "O PIX não pode ser cancelado após enviado. Se houver erro, é necessário pedir devolução ao destinatário."
+  },
+  {
+    "pergunta": "O que é saldo disponível?",
+    "resposta": "Saldo disponível é o valor que você pode usar imediatamente para pagamentos ou transferências."
+  },
+  {
+    "pergunta": "Meu cartão foi bloqueado, o que faço?",
+    "resposta": "Verifique no app o motivo do bloqueio e utilize a opção de desbloqueio ou solicite um novo cartão."
+  },
+  {
+    "pergunta": "Perdi meu cartão",
+    "resposta": "Bloqueie imediatamente pelo aplicativo para evitar uso indevido e solicite um novo cartão."
+  },
+  {
+    "pergunta": "O que é CDI?",
+    "resposta": "O CDI é uma taxa usada como referência para rendimentos de investimentos no mercado financeiro."
+  },
+  {
+    "pergunta": "Como vejo minha fatura?",
+    "resposta": "Acesse a área de cartões no aplicativo e selecione a opção de fatura para visualizar os detalhes."
+  },
+  {
+    "pergunta": "Meu saldo sumiu",
+    "resposta": "Verifique o extrato para identificar movimentações. Caso não reconheça, entre em contato com o suporte."
+  },
+  {
+    "pergunta": "Como faço uma transferência?",
+    "resposta": "Acesse transferências, informe os dados da conta de destino, o valor e confirme a operação."
+  },
+  {
+    "pergunta": "É seguro usar o aplicativo do banco?",
+    "resposta": "Sim, desde que você mantenha seus dados protegidos e nunca compartilhe senha ou códigos de verificação."
+  }
+]
