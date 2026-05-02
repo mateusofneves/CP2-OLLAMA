@@ -1,7 +1,8 @@
 # 🤖 NuAssist: Assistente Virtual Bancário com Ollama
 
-**Domínio Escolhido:** Setor Financeiro / Atendimento ao Cliente.  
-Este projeto consiste na criação de um assistente especializado para um banco digital, focado em resolver dúvidas sobre conta corrente, rendimentos e segurança de forma ágil, moderna e segura.
+**Domínio Escolhido:** Setor Financeiro / Atendimento ao Cliente  
+
+O **NuAssist** é um assistente virtual especializado em atendimento bancário digital, desenvolvido com Ollama e customizado via *Modelfile*. Seu objetivo é auxiliar usuários com dúvidas sobre conta corrente, rendimentos, segurança e operações financeiras de forma clara, rápida e segura.
 
 ---
 
@@ -18,26 +19,42 @@ Este projeto consiste na criação de um assistente especializado para um banco 
 ---
 
 ## 💡 Justificativa
-Escolhemos o domínio bancário devido à necessidade de uma comunicação que equilibre **proximidade** e **segurança**. No cenário atual, os bancos digitais precisam de IAs que traduzam termos técnicos ("bancuês") para uma linguagem acessível, garantindo que o cliente entenda seus benefícios (como rendimentos) e protocolos de segurança sem fricção.
+
+Escolhemos o domínio bancário devido à sua alta relevância no cotidiano e à necessidade de uma comunicação que equilibre **clareza, agilidade e segurança**.
+
+Bancos digitais utilizam assistentes virtuais para escalar atendimento, porém muitos ainda apresentam respostas genéricas ou excessivamente técnicas. O **NuAssist** foi projetado para reduzir esse atrito, traduzindo termos financeiros complexos ("bancuês") em uma linguagem acessível, mantendo boas práticas de segurança.
 
 ---
 
 ## 📊 Dataset
-O dataset foi construído utilizando a técnica de *Few-shot Prompting*, inserida diretamente no `Modelfile`.
-* **Quantidade:** 10 pares de Pergunta/Resposta.
-* **Construção:** Mapeamos as dúvidas mais frequentes em FAQs de bancos digitais reais, focando em:
-    1. Visualização de extrato e saldo.
-    2. Procedimentos de emergência (perda de cartão).
-    3. Explicação de rendimentos (CDI vs Poupança).
-    4. Suporte para novos produtos financeiros.
+
+O dataset foi construído utilizando a abordagem de *Few-shot Prompting*, sendo incorporado diretamente no `Modelfile`.
+
+- **Quantidade:** 10 pares de Pergunta/Resposta  
+- **Origem:** Simulação de dúvidas reais baseadas em FAQs de bancos digitais  
+- **Objetivo:** Ensinar o modelo a responder com clareza, segurança e contexto  
+
+### 🔍 Temas abordados:
+1. Consulta de saldo e extrato  
+2. Procedimentos de segurança (cartão perdido, bloqueio)  
+3. Explicação de rendimentos (CDI vs poupança)  
+4. Operações financeiras (PIX, transferências)  
 
 ---
 
 ## 🧠 System Prompt & Decisões
-O comportamento da IA foi moldado através do seguinte System Prompt:
+
+O comportamento do assistente foi definido com foco em **segurança, clareza e experiência do usuário**.
 
 ```text
-SYSTEM "Você é o NuAssist, um assistente de banco digital. Seja transparente e direto. 
-Regras: 1. Nunca peça senhas ou dados sensíveis. 2. Use português brasileiro simples. 
-3. Se não souber algo, direcione para o chat humano."
+SYSTEM "Você é o NuAssist, um assistente de banco digital. Seja transparente e direto.
+
+Regras:
+1. Nunca peça senhas ou dados sensíveis.
+2. Use português brasileiro simples e acessível.
+3. Mantenha um tom amigável e profissional.
+4. Evite termos técnicos sem explicação.
+5. Se não souber algo, direcione o usuário para atendimento humano.
+"
+
 PARAMETER temperature 0.3
