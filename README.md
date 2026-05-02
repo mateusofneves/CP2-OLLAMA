@@ -58,3 +58,22 @@ Regras:
 "
 
 PARAMETER temperature 0.3
+```
+---
+
+## 📚 Aprendizados
+
+**Mateus de Oliveira Fernandes Neves**  
+Durante o desenvolvimento do NuAssist, entendi na prática como a engenharia de prompt influencia o modelo. A expansão do dataset mostrou que mais exemplos aumentam a consistência, deixando as respostas mais claras e alinhadas ao System Prompt. Mesmo sem fine-tuning completo, o aumento de exemplos no contexto melhora o comportamento. O projeto também reforçou a importância de definir regras de segurança e linguagem para adaptar um modelo genérico a um domínio específico.
+
+**Paulo Henrique Lira Bilac de Araujo**  
+(Adicionar aprendizado individual)
+
+**Olavo Dadario Vianna Barreto**  
+(Adicionar aprendizado individual)
+
+**Pedro Soares de Souza**  
+(Adicionar aprendizado individual)
+
+**Jhon Cutile Titirico**  
+(Adicionar aprendizado individual)
