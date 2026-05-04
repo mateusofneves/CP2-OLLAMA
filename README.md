@@ -17,6 +17,21 @@ O **NuAssist** é um assistente virtual especializado em atendimento bancário d
 | **Jhon Cutile Titirico** | 571976 | [jhoncutiletitirico](https://github.com/jhoncutiletitirico) |
 
 ---
+## Descrição Curta
+
+O NuAssist é um assistente virtual bancário desenvolvido com Ollama, projetado para oferecer suporte rápido, claro e seguro aos usuários de bancos digitais. Utilizando técnicas de few-shot prompting, o sistema responde dúvidas comuns sobre operações financeiras, segurança e investimentos, traduzindo termos complexos em uma linguagem acessível. Seu foco está na experiência do usuário, garantindo respostas objetivas sem comprometer boas práticas de segurança.
+
+## Descrição Longa
+
+O NuAssist é um assistente virtual inteligente voltado para o setor financeiro, desenvolvido com o uso do Ollama e customizado por meio de um Modelfile. O projeto tem como principal objetivo melhorar a comunicação entre usuários e serviços bancários digitais, oferecendo respostas rápidas, compreensíveis e seguras para dúvidas comuns do dia a dia.
+
+Diferente de muitos assistentes tradicionais, que utilizam linguagem excessivamente técnica ou respostas genéricas, o NuAssist foi projetado com foco em acessibilidade. Ele traduz conceitos financeiros — como rendimento baseado em CDI, transferências e uso de PIX — para uma linguagem simples, mantendo a precisão das informações. Isso reduz barreiras de entendimento e melhora a experiência do usuário, especialmente para pessoas com menor familiaridade com o sistema financeiro.
+
+O modelo foi estruturado utilizando a abordagem de few-shot prompting, com um conjunto de perguntas e respostas inspirado em situações reais de atendimento bancário. Esse dataset permite que a IA compreenda diferentes formas de formular uma mesma dúvida, aumentando sua capacidade de interpretação e resposta. Além disso, o comportamento do assistente é guiado por um system prompt que define regras essenciais, como a proibição de solicitar dados sensíveis, o uso de linguagem clara e a orientação ao atendimento humano quando necessário.
+
+Outro ponto fundamental do projeto é a ênfase em segurança. O NuAssist foi projetado para nunca solicitar informações confidenciais, reforçando boas práticas digitais e protegendo o usuário contra possíveis riscos. Essa preocupação é essencial no contexto bancário, onde confiança e proteção de dados são prioridades.
+
+Em resumo, o NuAssist demonstra como é possível adaptar modelos de linguagem para um domínio específico, combinando engenharia de prompt, curadoria de dados e definição de regras para criar um assistente eficiente, seguro e centrado no usuário.
 
 ## 💡 Justificativa
 
