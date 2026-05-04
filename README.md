@@ -73,7 +73,6 @@ Durante o desenvolvimento do NuAssist, entendi na prática como a engenharia de 
 (Adicionar aprendizado individual)
 
 **Pedro Soares de Souza**  
-<img width="1094" height="421" alt="image" src="https://github.com/user-attachments/assets/307cd094-e056-4e16-b7c9-3acf26cf5fd6" />
 Neste projeto, aprendi a usar o Modelfile do Ollama para personalizar o modelo de IA. Configurei o modelo base, defini regras com o system prompt e utilizei exemplos (few-shot) para ensinar o assistente a responder como um suporte de banco digital.
 Percebi que o modelo não aprende sozinho permanentemente, mas segue as instruções fornecidas. Por isso, a qualidade depende do dataset e das regras definidas.
 
