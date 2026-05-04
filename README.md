@@ -70,7 +70,7 @@ Durante o desenvolvimento do NuAssist, entendi na prática como a engenharia de 
 (Adicionar aprendizado individual)
 
 **Olavo Dadario Vianna Barreto**  
-(Adicionar aprendizado individual)
+Neste projeto, aprendi a utilizar o Ollama para criar um chatbot com IA local, entendendo como o system prompt e os exemplos influenciam diretamente nas respostas do modelo. Também desenvolvi a integração com a API e organizei a estrutura do código, incluindo histórico de conversa e menu interativo, melhorando a experiência do usuário. Além disso, compreendi na prática como adaptar um modelo genérico para um contexto específico, como o atendimento bancário, aplicando conceitos de engenharia de prompt e organização de dados.
 
 **Pedro Soares de Souza**  
 Neste projeto, aprendi a usar o Modelfile do Ollama para personalizar o modelo de IA. Configurei o modelo base, defini regras com o system prompt e utilizei exemplos (few-shot) para ensinar o assistente a responder como um suporte de banco digital.
