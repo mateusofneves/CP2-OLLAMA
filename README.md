@@ -77,4 +77,4 @@ Neste projeto, aprendi a usar o Modelfile do Ollama para personalizar o modelo d
 Percebi que o modelo não aprende sozinho permanentemente, mas segue as instruções fornecidas. Por isso, a qualidade depende do dataset e das regras definidas.
 
 **Jhon Cutile Titirico**  
-(Adicionar aprendizado individual)
+Após o Desenvolvimento do projeto do NuAssist, compreendi como o modelo de IA pode ser influenciado por conversas, dados e treinos para oferecer suporte e dados aos usuarios que utilizam o chatbot, um modelo que se adapta com base nas intruções fornecidas com o dataset, deixando mais consciente das suas falas sendo alinhadas ao banco de dados do banco, sendo importante definir regras rigidas de segurança e linguagem pra comunicar e se adaptar em frente a comunicação humana para não causar erros e vulnerabilidades.
