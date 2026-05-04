@@ -1,42 +1,101 @@
 [
   {
-    "pergunta": "Como faço um PIX?",
-    "resposta": "Acesse a área de transferências, escolha PIX, informe a chave e confirme a operação."
-  },
+  "intencao": "fazer_pix",
+  "perguntas": [
+    "Como faço um PIX?",
+    "Como enviar PIX?",
+    "Como mandar um PIX?",
+    "Quero fazer um PIX",
+    "Como transferir por PIX?"
+  ],
+  "resposta": "Acesse a área de transferências, escolha PIX, informe a chave e confirme a operação."
+},
   {
-    "pergunta": "Posso cancelar um PIX?",
+    "intencao": "cancelar_pix",
+    "perguntas": [
+      "Posso cancelar um PIX?",
+      "Tem como cancelar PIX?",
+      "PIX dá pra desfazer?",
+      "Erro no PIX, e agora?"
+    ],
     "resposta": "O PIX não pode ser cancelado após enviado. Se houver erro, é necessário pedir devolução ao destinatário."
   },
   {
-    "pergunta": "O que é saldo disponível?",
+    "intencao": "saldo",
+    "perguntas": [
+      "O que é saldo disponível?",
+      "Quanto eu tenho pra usar?",
+      "Saldo disponível significa o que?",
+      "Meu saldo pode ser usado?"
+    ],
     "resposta": "Saldo disponível é o valor que você pode usar imediatamente para pagamentos ou transferências."
   },
   {
     "pergunta": "Meu cartão foi bloqueado, o que faço?",
     "resposta": "Verifique no app o motivo do bloqueio e utilize a opção de desbloqueio ou solicite um novo cartão."
   },
-  {
-    "pergunta": "Perdi meu cartão",
+ {
+    "intencao": "cartao_perdido",
+    "perguntas": [
+      "Perdi meu cartão",
+      "Roubaram meu cartão",
+      "Cartão sumiu",
+      "O que faço se perder o cartão?"
+    ],
     "resposta": "Bloqueie imediatamente pelo aplicativo para evitar uso indevido e solicite um novo cartão."
   },
   {
-    "pergunta": "O que é CDI?",
-    "resposta": "O CDI é uma taxa usada como referência para rendimentos de investimentos no mercado financeiro."
+    "intencao": "cdi",
+    "perguntas": [
+      "O que é CDI?",
+      "O que significa CDI?",
+      "CDI é o quê?",
+      "Para que serve o CDI?",
+      "Como funciona o CDI?"
+    ],
+    "resposta": "O CDI é uma taxa usada como referência para a maioria dos investimentos de renda fixa no mercado financeiro."
   },
   {
-    "pergunta": "Como vejo minha fatura?",
+    "intencao": "ver_fatura",
+    "perguntas": [
+      "Como vejo minha fatura?",
+      "Quero ver a fatura do cartão",
+      "Onde vejo a fatura?",
+      "Como consultar fatura?"
+    ],
     "resposta": "Acesse a área de cartões no aplicativo e selecione a opção de fatura para visualizar os detalhes."
   },
   {
-    "pergunta": "Meu saldo sumiu",
-    "resposta": "Verifique o extrato para identificar movimentações. Caso não reconheça, entre em contato com o suporte."
+    "intencao": "saldo_sumiu",
+    "perguntas": [
+      "Meu saldo sumiu",
+      "Cadê meu dinheiro?",
+      "Meu saldo desapareceu",
+      "Sumiu dinheiro da minha conta",
+      "Não estou vendo meu saldo"
+    ],
+    "resposta": "Verifique o extrato para identificar movimentações. Caso não reconheça alguma transação, entre em contato com o suporte imediatamente."
   },
   {
-    "pergunta": "Como faço uma transferência?",
-    "resposta": "Acesse transferências, informe os dados da conta de destino, o valor e confirme a operação."
+    "intencao": "transferencia",
+    "perguntas": [
+      "Como faço uma transferência?",
+      "Como transferir dinheiro?",
+      "Quero fazer uma transferência",
+      "Como mandar dinheiro para outra conta?",
+      "Como enviar dinheiro?"
+    ],
+    "resposta": "Acesse a área de transferências, informe os dados da conta de destino, o valor desejado e confirme a operação."
   },
   {
-    "pergunta": "É seguro usar o aplicativo do banco?",
-    "resposta": "Sim, desde que você mantenha seus dados protegidos e nunca compartilhe senha ou códigos de verificação."
+    "intencao": "seguranca_app",
+    "perguntas": [
+      "É seguro usar o aplicativo do banco?",
+      "O app do banco é seguro?",
+      "Posso confiar no aplicativo do banco?",
+      "Usar app de banco é perigoso?",
+      "Meu banco online é seguro?"
+    ],
+    "resposta": "Sim, desde que você mantenha seus dados protegidos, utilize senhas fortes e nunca compartilhe códigos de verificação ou informações pessoais."
   }
 ]
