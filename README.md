@@ -82,7 +82,7 @@ PARAMETER temperature 0.3
 Durante o desenvolvimento do NuAssist, entendi na prática como a engenharia de prompt influencia o modelo. A expansão do dataset mostrou que mais exemplos aumentam a consistência, deixando as respostas mais claras e alinhadas ao System Prompt. Mesmo sem fine-tuning completo, o aumento de exemplos no contexto melhora o comportamento. O projeto também reforçou a importância de definir regras de segurança e linguagem para adaptar um modelo genérico a um domínio específico.
 
 **Paulo Henrique Lira Bilac de Araujo**  
-(Adicionar aprendizado individual)
+Com esse projeto, aprendi na prática como uma IA interpreta e organiza as informações que recebe, além da importância de estruturar corretamente os dados para obter respostas mais precisas. Também entendi como pequenas variações nas perguntas influenciam diretamente na qualidade das respostas, mostrando a necessidade de pensar na forma como o usuário realmente se comunica.
 
 **Olavo Dadario Vianna Barreto**  
 Neste projeto, aprendi a utilizar o Ollama para criar um chatbot com IA local, entendendo como o system prompt e os exemplos influenciam diretamente nas respostas do modelo. Também desenvolvi a integração com a API e organizei a estrutura do código, incluindo histórico de conversa e menu interativo, melhorando a experiência do usuário. Além disso, compreendi na prática como adaptar um modelo genérico para um contexto específico, como o atendimento bancário, aplicando conceitos de engenharia de prompt e organização de dados.
